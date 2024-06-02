@@ -13,6 +13,8 @@
   <li><a href="#references">References</a></li>
   <li><a href="#contributing">Contributing</a></li>
   <li><a href="#license">License</a></li>
+  <li><a href="#fine-tuned-model">Fine-Tuned Model Access</a></li>
+  <li><a href="#loading-fine-tuned-model">Loading Fine-Tuned Model</a></li> <!-- New section -->
 </ul>
 
 <h2 id="introduction">Introduction</h2>
@@ -63,6 +65,20 @@
 
 <h2 id="license">License</h2>
 <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
+
+<h2 id="fine-tuned-model">Fine-Tuned Model Access</h2>
+<p>The fine-tuned model weights can be accessed and downloaded from the following link:</p>
+<p><a href="https://drive.google.com/drive/folders/1vQviiq34mWrn_Kop94N8t2izCGGJXq86?usp=drive_link">Download Fine-Tuned Model</a></p>
+
+<h2 id="loading-fine-tuned-model">Loading Fine-Tuned Model</h2>
+<p>To load the fine-tuned model in your Python code, you can use the <code>tf.keras.models.load_model</code> function. First, make sure TensorFlow is installed:</p>
+<pre><code>pip install tensorflow</code></pre>
+<p>Then, use the following code snippet to load the model:</p>
+<pre><code>import tensorflow as tf
+
+Replace 'path_to_your_model_weights' with the actual path where you saved the model weights
+model = tf.keras.models.load_model('path_to_your_model_weights')</code></pre>
+<p>Now you can use the <code>model</code> object for inference on new images.</p>
 
 </body>
 </html>
