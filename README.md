@@ -55,7 +55,7 @@
 <ul>
   <li><a href="https://arxiv.org/abs/1905.11946">EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks</a></li>
   <li><a href="https://www.tensorflow.org/datasets/catalog/food101">Food101 Dataset</a></li>
-  <li><a href="https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/static/bossard_eccv14_food-101.pdfr">Experiment Paper</a></li>
+  <li><a href="https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/static/bossard_eccv14_food-101.pdf">Experiment Paper</a></li>
 </ul>
 
 <h2 id="contributing">Contributing</h2>
