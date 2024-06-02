@@ -16,7 +16,7 @@
 </ul>
 
 <h2 id="introduction">Introduction</h2>
-<p>Food classification is a challenging task due to the large variety of food types and the visual similarity between certain classes. This project uses transfer learning with EfficientNetV2B0 to build a high-accuracy food classification model. The goal is to achieve and surpass the accuracy reported in the experiment paper <a href="link-to-paper">link to paper</a>.</p>
+<p>Food classification is a challenging task due to the large variety of food types and the visual similarity between certain classes. This project uses transfer learning with EfficientNetV2B0 to build a high-accuracy food classification model. The goal is to achieve and surpass the accuracy reported in the experiment paper <a href="https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/static/bossard_eccv14_food-101.pdf">link to paper</a>.</p>
 
 <h2 id="dataset">Dataset</h2>
 <p>The Food101 dataset consists of 101,000 images of food divided into 101 categories, with 750 training images and 250 test images per class. The dataset can be directly loaded from TensorFlow Datasets.</p>
@@ -55,7 +55,7 @@
 <ul>
   <li><a href="https://arxiv.org/abs/1905.11946">EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks</a></li>
   <li><a href="https://www.tensorflow.org/datasets/catalog/food101">Food101 Dataset</a></li>
-  <li><a href="link-to-experiment-paper">Experiment Paper</a></li>
+  <li><a href="https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/static/bossard_eccv14_food-101.pdfr">Experiment Paper</a></li>
 </ul>
 
 <h2 id="contributing">Contributing</h2>
